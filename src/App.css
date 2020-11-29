@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(53, 49, 116) 84%, rgba(0,212,255,1) 100%);
+}
+#App-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#App-title{
+    width: 920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin-top: 20px;
+    font-size: 25px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.editor{
+    width: 450px;
+    height: 550px;
+    background-color: black;
+    color: #ffffff;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    border: 4px solid #89466F;
+}
+#editor-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+#editor{
+    height: 100%;
+    width: 100%;
+    outline: none;
+}
+.previewer{
+    width: 450px;
+    height: 550px;
+    background-color: black;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    border: 4px solid #89466F;
+}
+#previewer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    height: 45px;
+}
+#preview{
+    background-color: #ffffff;
+    color: black;
+    margin: 10px auto;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    white-space: nowrap;
+    font-size: 20px;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+}
